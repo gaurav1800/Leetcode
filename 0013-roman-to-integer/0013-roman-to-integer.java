@@ -8,12 +8,12 @@ class Solution {
         
         while (i != arr.length) {
             
-            if ((arr[i] == 'M' && i+1== arr.length) || (arr[i] == 'M' && arr[i+1] == 'M') || arr[i] == 'M') {
-                sum += 1000;
-            }
-            else if (arr[i] == 'C' && i+1 != arr.length && arr[i+1] == 'M') {
+            if (arr[i] == 'C' && i+1 != arr.length && arr[i+1] == 'M') {
                 sum += 900;
                 i++;
+            }
+            else if ((arr[i] == 'M' && i+1== arr.length) || (arr[i] == 'M' && arr[i+1] == 'M') || arr[i] == 'M') {
+                sum += 1000;
             }
             else if ((arr[i] == 'D' && i+1== arr.length) || (arr[i] == 'D' && arr[i+1] == 'D') || arr[i] == 'D') {
                 sum += 500;
