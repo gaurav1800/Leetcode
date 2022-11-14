@@ -12,19 +12,9 @@ class Solution {
                 sum += 900;
                 i++;
             }
-            else if ((arr[i] == 'M' && i+1== arr.length) || (arr[i] == 'M' && arr[i+1] == 'M') || arr[i] == 'M') {
-                sum += 1000;
-            }
-            else if ((arr[i] == 'D' && i+1== arr.length) || (arr[i] == 'D' && arr[i+1] == 'D') || arr[i] == 'D') {
-                sum += 500;
-            }
-            
             else if (arr[i] == 'C' && i+1 != arr.length && arr[i+1] == 'D') {
                 sum += 400;
                 i++;
-            }
-            else if ((arr[i] == 'C' && i+1 == arr.length) || (arr[i] == 'C' && arr[i+1] == 'C') || arr[i] == 'C') {
-                sum += 100;
             }
             else if ((arr[i] == 'X' && i+1 != arr.length) && arr[i+1] == 'L') {
                 sum += 40;
@@ -34,6 +24,18 @@ class Solution {
                 sum += 90;
                 i++;
             }
+            else if ((arr[i] == 'M' && i+1== arr.length) || (arr[i] == 'M' && arr[i+1] == 'M') || arr[i] == 'M') {
+                sum += 1000;
+            }
+            else if ((arr[i] == 'D' && i+1== arr.length) || (arr[i] == 'D' && arr[i+1] == 'D') || arr[i] == 'D') {
+                sum += 500;
+            }
+            
+            
+            else if ((arr[i] == 'C' && i+1 == arr.length) || (arr[i] == 'C' && arr[i+1] == 'C') || arr[i] == 'C') {
+                sum += 100;
+            }
+            
             else if ((arr[i] == 'L' && i+1== arr.length) || (arr[i] == 'L' && arr[i+1] == 'L') || arr[i] == 'L') {
                 sum += 50;
             }
