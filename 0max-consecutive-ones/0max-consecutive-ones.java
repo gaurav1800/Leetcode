@@ -9,9 +9,7 @@ class Solution {
                 counter = 0;
             }
             
-            if(counter > max) {
-                max = counter;
-            }
+            max = counter > max ? counter : max;
         }
         
         return max;
