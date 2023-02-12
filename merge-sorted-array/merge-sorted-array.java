@@ -2,6 +2,8 @@ class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         
         
+        
+        //Beats 100% runtime and ~94% memory usage
         if(m+n == 1) {
             if(n == 1) {
                 nums1[0] = nums2[0];
