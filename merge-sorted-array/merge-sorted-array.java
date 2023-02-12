@@ -3,10 +3,7 @@ class Solution {
         
         
         if(m+n == 1) {
-            if (m == 1) {
-                nums1[0] = nums1[0];
-            }
-            else if(n == 1) {
+            if(n == 1) {
                 nums1[0] = nums2[0];
             }
             
@@ -33,11 +30,6 @@ class Solution {
                 n--;
                 k--;
             }
-            // while (m > -1 && n < 0) {
-            //     nums1[k] = nums2[n];
-            // }
-            
-            
         }
         
         
@@ -46,6 +38,7 @@ class Solution {
     
         
         
+        //beats 100% runtime but only ~25% memory
 //         int[] res = new int[m+n];
         
 //         int i = 0, j = 0, k = 0;
