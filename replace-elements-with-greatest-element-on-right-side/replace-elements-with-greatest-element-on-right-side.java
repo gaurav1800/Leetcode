@@ -6,16 +6,18 @@ class Solution {
             return arr;
         }
         
-        for(int i=0; i<arr.length-1; i++) {
-            int max = 0;
-            for(int j=i+1; j<arr.length; j++) {
-                max = max < arr[j] ? arr[j] : max;
-            }
+        int max = -1;
+        
+        for(int i=arr.length-1; i>-1; i--) {
+            int temp = arr[i];
+            
             arr[i] = max;
+            
+            if (temp > max) {
+                max = temp;
+            }
         }
-        
         arr[arr.length-1] = -1;
-        
         return arr;
         
     }
