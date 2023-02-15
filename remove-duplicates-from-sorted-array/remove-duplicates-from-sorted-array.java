@@ -6,20 +6,19 @@ class Solution {
         }
         
         
-        int j=0, k=0;
+        int j=0;
         
         for(int i = 0; i < nums.length-1; i++) {
             if (nums[i] != nums[i+1]) {
                 nums[j] = nums[i];
-                k++;
                 j++;
             }
         }
         nums[j] = nums[nums.length-1];
-        k++;
+        j++;
        
         
-        return k;
+        return j;
         
     }
 }
