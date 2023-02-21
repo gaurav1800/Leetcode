@@ -10,14 +10,13 @@ class Solution {
             int jsquared = nums[j] * nums[j];
             
             if (isquared > jsquared) {
-                result[resultidx] = isquared;
+                result[resultidx--] = isquared;
                 i++;
             }
             else {
-                result[resultidx] = jsquared;
+                result[resultidx--] = jsquared;
                 j--;
             }
-            resultidx--;
         }
         
         return result;
