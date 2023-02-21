@@ -17,8 +17,11 @@ class Solution {
         
         while(idx > -1) {
             
+            int isquared = square(nums[i]);
+            int jsquared = square(nums[j]);
             
-            if (square(nums[i]) > square(nums[j])) {
+            
+            if ( isquared > jsquared) {
                 result[idx] = square(nums[i]);
                 i++;
             }
