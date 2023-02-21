@@ -3,7 +3,6 @@ class Solution {
         if (x < 0) {
             return false;
         }
-        
         long q, remaining=x, result=0;
         
         while (remaining != 0) {
