@@ -23,24 +23,7 @@ class Solution {
             
         }
         
-        
-        return prev;
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        return prev;    
         
         
         // Brute Force Solution
