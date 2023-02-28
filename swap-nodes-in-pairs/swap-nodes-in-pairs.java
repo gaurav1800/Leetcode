@@ -17,13 +17,14 @@ class Solution {
             return current;
         }
         else {
-            ListNode n1=current, n2=current.next, n3=null;
+            ListNode p1 = current, p2 = current.next, p3=null;
             
-            n3 = swapPairs(n2.next);
-            n2.next = n1;
-            n1.next = n3;
-            return n2;
+            p3 = swapPairs(p2.next);
+            p2.next = p1;
+            p1.next = p3;
+                    return p2;
         }
+
         
     }
 }
