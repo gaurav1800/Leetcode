@@ -5,10 +5,11 @@ class Solution {
         
         for(int i=0; i<nums.length; i++) {
             if (nums[i] < 1 || nums[i] > nums.length) {
-                continue;
+                
             }
-            
-            res[nums[i]] = 1;
+            else {
+                res[nums[i]] += 1;
+            }
         }
         
         int i=1;
