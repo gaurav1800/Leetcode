@@ -9,9 +9,9 @@ class Solution {
             return 0;
         }
         
-        while (x%10 == 0) {
-            x /= 10;
-        }
+        // while (x%10 == 0) {
+        //     x /= 10;
+        // }
         
         boolean neg = false;
         
