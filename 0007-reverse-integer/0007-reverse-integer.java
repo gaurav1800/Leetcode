@@ -23,14 +23,11 @@ class Solution {
         long res = 0;
         
         while (x != 0) {
-            int rem = x%10;
-            res += rem;
-            res *= 10;
+            res = res*10 + x%10;
             x/= 10;
         }
-        res /= 10;
         
-        if (res < Math.pow(-2, 31) || res > (Math.pow(2, 31) - 1)) {
+        if (res < Integer.MIN_VALUE || res > Integer.MAX_VALUE) {
             return 0;
         }
         if (neg == true) {
