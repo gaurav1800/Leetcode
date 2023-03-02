@@ -5,7 +5,7 @@ class Solution {
             return x;
         }
         
-        if (x < Math.pow(-2, 31) || x > (Math.pow(2, 31) - 1)) {
+        if (x < Integer.MIN_VALUE || x > Integer.MAX_VALUE) {
             return 0;
         }
         
