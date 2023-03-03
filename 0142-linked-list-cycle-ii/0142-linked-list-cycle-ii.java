@@ -22,7 +22,7 @@ public class Solution {
             fast = fast.next.next;
             slow = slow.next;
             
-            if (fast == null || fast.next == null || fast.next.next == null) {
+            if (fast == null || fast.next == null) {
                 return null;
             }
             
