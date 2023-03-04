@@ -38,6 +38,12 @@ class Solution {
         
         
         
+        
+        
+        
+        
+        
+        // prev solution (not organized)
 //         if (head.next == null) {
 //             return head;
 //         }
