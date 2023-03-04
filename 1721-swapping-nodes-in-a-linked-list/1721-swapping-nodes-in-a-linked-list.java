@@ -11,90 +11,117 @@
 class Solution {
     public ListNode swapNodes(ListNode head, int k) {
         
-        if (head.next == null) {
-            return head;
-        }
         
+        ListNode fast = head, slow = head;
         
-        ListNode p1 = head;
-        int num = 0;
-        
-        while (p1 != null) {
-            num++;
-            p1 = p1.next;
-        }
-        
-        
-        int klast = num-k + 1;
-        
-        
-        p1 = head;
-        int i=1;
-            
-        while (i < k-1) {
-            p1 = p1.next;
+        int i = 1;
+        while (i<k) {
+            fast = fast.next;
             i++;
         }
         
-        ListNode p2 = head;
-        int j = 1;
+        ListNode p1 = fast;
         
-        while (j < klast-1) {
-            p2 = p2.next;
-            j++;
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
         }
         
-        if (k > num || k == 0 || k==klast) {
-            return head;
-        }
+        ListNode p2 = slow;
         
-        if (p1==p2) {
-            p2 = p2.next;
-            p2.next = p1;
-            p1.next = null;
-            return p2;
-        }
-        
-        if (k == 1 || k==num) {
-            if (k==num) {
-                p2 = p1;   
-            }
-            
-            p1 = head;
-            p2.next.next = p1.next;
-            p1.next = null;
-            head = p2.next;
-            p2.next = p1;
-            return head;
-            
-        }
-        
-        if (klast-1 == k || klast+1 == k) {
-            if (klast+1 == k) {
-                ListNode temp = p1;
-                p1 = p2;
-                p2 = temp;
-            }
-            ListNode temp = p2.next.next;
-            p1.next = p2.next;
-            p2.next = temp;
-            if (p1.next != null) {
-                p1.next.next = p2;    
-            }
-            
-            
-            return head;
-            
-        }
-        
-        ListNode temp = p1.next.next;
-        p1.next.next = p2.next.next;
-        p2.next.next = temp;
-        temp = p2.next;
-        p2.next = p1.next;
-        p1.next = temp;
+        int temp = p1.val;
+        p1.val = p2.val;
+        p2.val = temp;
         
         return head;
+        
+        
+        
+        
+//         if (head.next == null) {
+//             return head;
+//         }
+        
+        
+//         ListNode p1 = head;
+//         int num = 0;
+        
+//         while (p1 != null) {
+//             num++;
+//             p1 = p1.next;
+//         }
+        
+        
+//         int klast = num-k + 1;
+        
+        
+//         p1 = head;
+//         int i=1;
+            
+//         while (i < k-1) {
+//             p1 = p1.next;
+//             i++;
+//         }
+        
+//         ListNode p2 = head;
+//         int j = 1;
+        
+//         while (j < klast-1) {
+//             p2 = p2.next;
+//             j++;
+//         }
+        
+//         if (k > num || k == 0 || k==klast) {
+//             return head;
+//         }
+        
+//         if (p1==p2) {
+//             p2 = p2.next;
+//             p2.next = p1;
+//             p1.next = null;
+//             return p2;
+//         }
+        
+//         if (k == 1 || k==num) {
+//             if (k==num) {
+//                 p2 = p1;   
+//             }
+            
+//             p1 = head;
+//             p2.next.next = p1.next;
+//             p1.next = null;
+//             head = p2.next;
+//             p2.next = p1;
+//             return head;
+            
+//         }
+        
+//         if (klast-1 == k || klast+1 == k) {
+//             if (klast+1 == k) {
+//                 ListNode temp = p1;
+//                 p1 = p2;
+//                 p2 = temp;
+//             }
+//             ListNode temp = p2.next.next;
+//             p1.next = p2.next;
+//             p2.next = temp;
+//             if (p1.next != null) {
+//                 p1.next.next = p2;    
+//             }
+            
+            
+//             return head;
+            
+//         }
+        
+//         ListNode temp = p1.next.next;
+//         p1.next.next = p2.next.next;
+//         p2.next.next = temp;
+//         temp = p2.next;
+//         p2.next = p1.next;
+//         p1.next = temp;
+        
+//         return head;
         
         
         
