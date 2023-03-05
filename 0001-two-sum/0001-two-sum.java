@@ -3,44 +3,20 @@ class Solution {
         
         int[] res = new int[2];
         
-        
-//         int lo=0, hi=nums.length-1;
-        
-//         while(lo<hi) {
-//             int mid = (lo+hi) /2;
-//             if (nums[lo] + nums[hi] == target) {
-//                 res[0] = lo;
-//                 res[1] = hi;
-//                 return res;
-//             }
-//             else if (nums[lo] + nums[hi] > target) {
-//                 hi = mid;
-//             }
-//             else {
-//                 lo = mid;
-//             }
-//         }
-//         return res;
-        
-        
-        
-        
-        
-        
+        Map<Integer,Integer> map = new HashMap<>();
         
         int i=0;
-        while (i < nums.length-1) {
-            int j = i+1;
-            while (j<nums.length) {
-                if (nums[i] + nums[j] == target) {
-                    res[0] = i;
-                    res[1] = j;
-                    return res;
-                }
-                j++;
+        
+        while(i < nums.length) {
+            if (map.containsKey(target-nums[i])) {
+                res[0] = map.get(target-nums[i]);
+                res[1] = i;
+                return res;
             }
+            map.put(nums[i], i);
             i++;
         }
         return res;
+        
     }
 }
