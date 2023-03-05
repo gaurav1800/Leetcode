@@ -14,16 +14,6 @@ class Solution {
             map.put(nums[i], i);
         }
         
-        // int i=0;
-        // while(i < nums.length) {
-        //     if (map.containsKey(target-nums[i])) {
-        //         res[0] = map.get(target-nums[i]);
-        //         res[1] = i;
-        //         return res;
-        //     }
-        //     map.put(nums[i], i);
-        //     i++;
-        // }
         return res;
         
     }
