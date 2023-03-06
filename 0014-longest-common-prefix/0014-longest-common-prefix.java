@@ -15,6 +15,8 @@ class Solution {
         }
         return res;
         
+        
+        // Takes longer
 //         String res = "";
         
 //         for(int i=0; i<strs[0].length(); i++) {
@@ -29,7 +31,6 @@ class Solution {
 //                 return res;
 //             }
 //         }
-        
 //         return res;
         
     }
