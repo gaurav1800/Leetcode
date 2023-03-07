@@ -13,14 +13,16 @@ class Solution {
         
         ListNode head = new ListNode(0);
         ListNode current = head;
-        int sum = 0, extra = 0;
+        
+        int extra = 0;
         
         while (l1 != null || l2 != null || extra != 0) {
+            
             
             int num1 = l1 != null ? l1.val : 0;
             int num2 = l2 != null ? l2.val : 0;
             
-            sum = num1+num2+extra;
+            int sum = num1+num2+extra;
             
             extra = sum/10;
             
