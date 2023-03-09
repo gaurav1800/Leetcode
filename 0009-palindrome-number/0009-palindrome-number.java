@@ -1,32 +1,35 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        if (x < 0) {
+        
+        if (x<0) {
             return false;
         }
-        long q, remaining=x, result=0;
         
-        while (remaining != 0) {
-            q = remaining % 10; 
-            remaining /= 10;
-            
-            if (q==0) {
-                result*=10;
-            }
-            else {
-                result += q;
-                result *= 10;    
-            }
-            
+        int num = 0;
+        int x1 = x;
+        
+        while (x>0) {
+            num = num*10 + x%10;
+            x /= 10;
         }
         
-        result /= 10;
+        return num == x1;
         
-        if (result == x) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        
+        
+        //converting int to string first approach
+//         String num = String.valueOf(x);
+        
+//         int i=0, j=num.length()-1;
+        
+//         while (i<j) {
+//             if (num.charAt(i) != num.charAt(j)) {
+//                 return false;
+//             }
+//             i++;
+//             j--;
+//         }
+//         return true;
         
     }
 }
