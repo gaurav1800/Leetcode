@@ -9,7 +9,8 @@ class Solution {
                 toBuy = prices[i];
             }
             else {
-                max = prices[i]-toBuy > max ? prices[i]-toBuy : max;    
+                // max = prices[i]-toBuy > max ? prices[i]-toBuy : max;    
+                max = Math.max(max,prices[i] - toBuy);
             }
         }
         
