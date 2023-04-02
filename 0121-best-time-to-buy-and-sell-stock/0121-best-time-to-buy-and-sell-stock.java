@@ -4,8 +4,13 @@ class Solution {
         int toBuy=prices[0], max=0;
         
         for(int i=1; i<prices.length; i++) {
-            toBuy = prices[i]<toBuy ? prices[i] : toBuy;
-            max = prices[i]-toBuy > max ? prices[i]-toBuy : max;
+            
+            if (prices[i] < toBuy) {
+                toBuy = prices[i];
+            }
+            else {
+                max = prices[i]-toBuy > max ? prices[i]-toBuy : max;    
+            }
         }
         
         return max;
