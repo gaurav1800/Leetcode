@@ -35,7 +35,7 @@ class Solution {
                 if(q.peek().right != null) {
                     q.add(q.peek().right);
                 }
-                currentlvl.add(q.remove().val);
+                currentlvl.add(q.poll().val);
             }
             result.add(currentlvl);
         }
