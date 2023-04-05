@@ -17,11 +17,8 @@ class Solution {
         
         TreeNode ptr = root;
         while(true) {
-            if (ptr == p) {
-                return p;
-            }
-            else if (ptr == q) {
-                return q;
+            if (ptr == p || ptr == q) {
+                return ptr;
             }
             else if ((p.val < ptr.val && ptr.val < q.val) || (p.val > ptr.val && ptr.val > q.val)) {
                 return ptr;
