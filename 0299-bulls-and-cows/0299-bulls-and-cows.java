@@ -1,45 +1,27 @@
 class Solution {
     public String getHint(String secret, String guess) {
         
-        int bulls = 0, cows = 0;
+        char[] s = secret.toCharArray();
+        char[] g = guess.toCharArray();
+        char[] sArray = new char[10];
+        char[] gArray = new char[10];
+        int bulls=0, cows=0;
         
-        char[] sec = secret.toCharArray();
-        
-        
-        HashMap<Integer, Character> map = new HashMap<>();
-        for(int i=0; i<guess.length(); i++) {
-            map.put(i, guess.charAt(i));
-        }
-        
-        for(int i=0; i<sec.length; i++) {
-            if (sec[i] == map.get(i)) {
+        for(int i=0; i<s.length; i++) {
+            if (s[i] == g[i]) {
                 bulls++;
-                map.remove(i);
-                sec[i] = 'a';
+            }
+            else {
+                sArray[s[i] - '0']++;
+                gArray[g[i] - '0']++;
             }
         }
         
-        for(int i=0; i<sec.length; i++) {
-            if (map.containsValue(sec[i])) {
-                cows++;
-                char value = sec[i];
-                int j = 0;
-                while (true) {
-                    if (!map.containsKey(j)) {
-                        j++;
-                    }
-                    else {
-                        if (value == map.get(j)) {
-                            map.remove(j);
-                            break;
-                        }
-                        j++;
-                    }
-                }
-            }
+        for(int i=0; i<10; i++) {
+            cows += Math.min(sArray[i], gArray[i]);
         }
-        String result = String.valueOf(bulls) + 'A' + String.valueOf(cows) + 'B';
-        return result;
+        
+        return String.valueOf(bulls) + 'A' + String.valueOf(cows) + 'B';
         
     }
 }
