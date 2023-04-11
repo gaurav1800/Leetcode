@@ -1,7 +1,7 @@
 class Solution {
     public int climbStairs(int n) {
         
-        if (n < 3) {
+        if (n < 2) {
             return n;
         }
         
