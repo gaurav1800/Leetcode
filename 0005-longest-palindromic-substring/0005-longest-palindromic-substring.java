@@ -5,30 +5,29 @@ class Solution {
             return "";
         }
         
-        int[] ind = {0, 0};
+        int l = 0, r = 0;
         
         for(int i=0; i<s.length(); i++) {
-            int[] ind1 = expand(s, i, i);
-            if (ind1[1] - ind1[0] > ind[1] - ind[0]) {
-                ind = ind1;
-            }
-            if (i+1 < s.length() && s.charAt(i) == s.charAt(i+1)) {
-                int[] ind2 = expand(s, i, i+1);
-                if (ind2[1] - ind2[0] > ind[1] - ind[0]) {
-                    ind = ind2;
-                }
+            
+            int len1 = expand(s, i, i);
+            int len2 = expand(s, i, i+1);
+            int len = Math.max(len1, len2);
+            if (len > r - l + 1) {
+                l = i - (len-1)/2;
+                r = i + len/2;
             }
         }
         
-        return s.substring(ind[0], ind[1] + 1);
+        return s.substring(l, r+1);
             
         
     }
     
-    private int[] expand(String s, int i, int j) {
-        for(; i>=0 && j<s.length(); i--, j++) {
-            if (s.charAt(i) != s.charAt(j)) break;
+    private int expand(String s, int l, int r) {
+        while (l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)) {
+            l--; 
+            r++;
         }
-        return new int[] {i+1, j-1};
+        return r - l - 1;
     }
 }
