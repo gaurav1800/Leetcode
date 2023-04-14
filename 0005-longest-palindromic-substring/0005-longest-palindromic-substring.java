@@ -8,12 +8,12 @@ class Solution {
         int[] ind = {0, 0};
         
         for(int i=0; i<s.length(); i++) {
-            int[] ind1 = extend(s, i, i);
+            int[] ind1 = expand(s, i, i);
             if (ind1[1] - ind1[0] > ind[1] - ind[0]) {
                 ind = ind1;
             }
             if (i+1 < s.length() && s.charAt(i) == s.charAt(i+1)) {
-                int[] ind2 = extend(s, i, i+1);
+                int[] ind2 = expand(s, i, i+1);
                 if (ind2[1] - ind2[0] > ind[1] - ind[0]) {
                     ind = ind2;
                 }
@@ -25,7 +25,7 @@ class Solution {
         
     }
     
-    private int[] extend(String s, int i, int j) {
+    private int[] expand(String s, int i, int j) {
         for(; i>=0 && j<s.length(); i--, j++) {
             if (s.charAt(i) != s.charAt(j)) break;
         }
