@@ -8,7 +8,9 @@ class Solution {
         int max = Integer.MIN_VALUE;
         
         for(int i=0; i<candies.length; i++) {
-            max = max > candies[i] ? max : candies[i];
+            if (candies[i] > max) {
+                max = candies[i];
+            }
         }
         
         for(int i=0; i<candies.length; i++) {
