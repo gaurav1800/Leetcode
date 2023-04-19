@@ -19,10 +19,12 @@ class Node {
 
 class Solution {
     public List<Integer> preorder(Node root) {
-        List<Integer> result = new ArrayList<>();
-        helper(root, result);
-        return result;
         
+        List<Integer> list = new ArrayList<>();
+        
+        helper(root, list);
+        
+        return list;
         
     }
     
@@ -34,7 +36,6 @@ class Solution {
                 helper(root.children.get(i), list);
                 i++;
             }
-            
         }
     }
 }
