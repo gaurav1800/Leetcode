@@ -5,10 +5,11 @@ class Solution {
         
         while(lo != hi) {
             int mid = (int) Math.floor((lo+hi)/2);
-            if (nums[mid] == target) {
-                return mid;
-            }
-            else if (nums[mid] < target) {
+            // if (nums[mid] == target) {
+            //     return mid;
+            // }
+            // else 
+            if (nums[mid] < target) {
                 lo = mid+1;
             }
             else {
