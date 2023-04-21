@@ -6,10 +6,12 @@ class Solution {
         }
         
         int[] arr = new int[26];
+        char[] sArr = s.toCharArray();
+        char[] tArr = t.toCharArray();
         
         for(int i=0; i < s.length(); i++) {
-            arr[s.charAt(i) - 'a']++;
-            arr[t.charAt(i) - 'a']--;
+            arr[sArr[i] - 'a']++;
+            arr[tArr[i] - 'a']--;
         }
         
         for(int i=0; i < 26; i++) {
