@@ -1,17 +1,16 @@
 class Solution {
     public int fib(int n) {
         
-        int[] arr = new int[n+2];
-        int i;
+        int[] result = new int[n+2];
         
-        arr[0] = 0;
-        arr[1] = 1;
+        result[0] = 0;
+        result[1] = 1;
         
-        for(i=2; i<=n; i++) {
-            arr[i] = arr[i-1] + arr[i-2];
+        for(int i=2; i<=n; i++) {
+            result[i] = result[i-1] + result[i-2];
         }
         
-        return arr[n];
+        return result[n];
         
     }
 }
