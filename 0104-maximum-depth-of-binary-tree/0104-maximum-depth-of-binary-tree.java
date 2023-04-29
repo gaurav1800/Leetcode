@@ -19,10 +19,6 @@ class Solution {
         if (root == null) {
             return 0;
         }
-        
-        // if (root.left == null && root.right == null) {
-        //     return 0;
-        // }
         if (root.left == null) {
             return maxDepth(root.right) + 1;
         }
