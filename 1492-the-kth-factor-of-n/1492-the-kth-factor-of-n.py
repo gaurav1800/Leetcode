@@ -1,0 +1,16 @@
+class Solution:
+    def kthFactor(self, n: int, k: int) -> int:
+        
+        i = 1
+        
+        while i <= n:
+            
+            if n % i == 0:
+                k = k-1
+            
+            if k == 0:
+                return i    
+            
+            i = i+1
+        
+        return -1
