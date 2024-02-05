@@ -22,7 +22,7 @@ class Solution:
 
 #         return -1
     
-    
+#     fastest solution
         letter='abcdefghijklmnopqrstuvwxyz'
         index=[s.index(l) for l in letter if s.count(l) == 1]
         return min(index) if len(index) > 0 else -1
