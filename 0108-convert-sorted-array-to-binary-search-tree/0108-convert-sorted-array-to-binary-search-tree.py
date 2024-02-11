@@ -7,7 +7,7 @@
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
         
-#         slow implementation
+#         first implementation
 #         def build(l: int, r: int) -> Optional[TreeNode]:
 #             if l > r:
 #                 return None
@@ -19,7 +19,7 @@ class Solution:
 #         return build(0, len(nums) - 1)
         
         
-#         faster implementation
+#         second implementation
         def build(arr):
             if not arr: 
                 return None
