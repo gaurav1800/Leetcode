@@ -41,10 +41,6 @@ class Solution:
                 
             left += 1
             
-#             if matches == 26:
-#                 return True
-        
-#         return False
         return matches == 26
                                 
             
