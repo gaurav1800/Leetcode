@@ -10,6 +10,6 @@ class Solution:
     
         while n > 0:
             result += n % 2
-            n = n >> 1
+            n >>= 1
         
         return result
