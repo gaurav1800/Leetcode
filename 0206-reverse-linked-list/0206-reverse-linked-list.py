@@ -6,7 +6,7 @@
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
-        if (head == None or head.next == None):
+        if (head is None or head.next is None):
             return head
         
         prev = None
