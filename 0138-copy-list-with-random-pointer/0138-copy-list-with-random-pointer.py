@@ -11,7 +11,7 @@ class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
         
         myDict = {None:None}
-        
+
         current = head
         
         while (current):
