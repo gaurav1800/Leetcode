@@ -13,7 +13,7 @@ class Solution:
         slow = head
         fast = head.next
         
-        while (fast is not None and fast.next is not None):
+        while (fast and fast.next):
             if slow == fast:
                 return True
             
