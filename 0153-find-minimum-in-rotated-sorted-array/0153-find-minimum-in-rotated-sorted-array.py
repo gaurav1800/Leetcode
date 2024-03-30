@@ -7,7 +7,7 @@ class Solution:
         result = nums[lo]
         
         while (lo <= hi):
-            if nums[lo] <= nums[hi]:
+            if nums[lo] < nums[hi]:
                 result = min(result, nums[lo])
                 break
             
