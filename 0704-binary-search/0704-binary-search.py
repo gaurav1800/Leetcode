@@ -7,9 +7,11 @@ class Solution:
         while (lo <= hi):
             mid = (lo+hi) // 2
             
-            if (target < nums[mid]):
+            ey = nums[mid]
+            
+            if (target < ey):
                 hi = mid-1
-            elif (target > nums[mid]):
+            elif (target > ey):
                 lo = mid+1
             else:
                 return mid
