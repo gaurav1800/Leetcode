@@ -5,7 +5,7 @@ class Solution:
         hi = len(nums) - 1
         
         while (lo <= hi):
-            mid = int((lo+hi)/2)
+            mid = (lo+hi) // 2
             
             if (target < nums[mid]):
                 hi = mid-1
