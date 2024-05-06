@@ -14,6 +14,8 @@ class Solution:
         root.left = root.right
         root.right = temp
         
+        # root.left
+        
         self.invertTree(root.left)
         self.invertTree(root.right)
         
