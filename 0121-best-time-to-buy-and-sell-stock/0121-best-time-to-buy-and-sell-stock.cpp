@@ -20,7 +20,7 @@ public:
         
         
         
-//         slower solution
+//         little slower solution
 //         int max_profit = 0;
 //         int current_min = prices[0];
         
