@@ -15,7 +15,6 @@ public:
         for(int i = 0; i < smap.size(); i++) {
             if (smap[i] != tmap[i]) return false;
         }
-        
         return true;
     }
 };
