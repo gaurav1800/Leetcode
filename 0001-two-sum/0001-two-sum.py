@@ -1,17 +1,18 @@
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
         
-#         slow implementation
-        # for idx,num in enumerate(nums):
-        #     if target-num in nums:
-        #         if num + nums[nums.index(target-num)] == target and idx != nums.index(target-num):
-        #             return [idx, nums.index(target-num)]
+        int n = nums.size();
+        unordered_map<int, int> mp; 
 
-        # faster implementation
-        prevMap = {} 
-        for idx, val in enumerate(nums):
-            diff = target - val
-            if diff in prevMap:
-                return [prevMap[diff], idx]
-            else:
-                prevMap[val] = idx
+        for (int i = 0; i < n; i++) {
+            int complement = target - nums[i];
+            if (mp.find(complement) != mp.end()) {
+                return {mp[complement], i};
+            }
+            mp.insert({nums[i], i});
+        }
+        return {};
+        
+    }
+};
