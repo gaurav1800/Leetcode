@@ -21,6 +21,7 @@ public:
             return list1;
         }
         
+        
         ListNode* head = new ListNode(0);
         ListNode* current = head;
         
