@@ -53,6 +53,7 @@ public:
             
         }
         
+//         make the last node point to NULL
         if (left != NULL) {
             left->next = NULL;
         }
