@@ -2,6 +2,10 @@ class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         
+        if (m == 0) {
+            nums1 = nums2;
+        }
+        
         if (n != 0) {
             int i = m-1;
             int j = n-1;
@@ -19,6 +23,7 @@ public:
             while (j >= 0) {
                 nums1[k--] = nums2[j--];
             }
+            
         }
         
         
