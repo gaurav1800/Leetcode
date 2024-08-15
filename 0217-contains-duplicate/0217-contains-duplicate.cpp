@@ -4,7 +4,11 @@ public:
         unordered_set<int> set;
         
         for(int i : nums) {
-            if (set.find(i) != set.end()) {
+            // if (set.find(i) != set.end()) {
+            //     return true;
+            // }
+            
+            if (set.count(i)) {
                 return true;
             }
             set.insert(i);
