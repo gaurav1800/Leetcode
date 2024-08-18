@@ -6,6 +6,15 @@ public:
             return false;
         }
         
+        // converting both strings to lower case
+        for(char &c : s) {
+            c = tolower(c);
+        }
+        
+        for(char &c : t) {
+            c = tolower(c);
+        }
+        
         vector<int> arr(26, 0);
         
         for(int i=0; i<s.size(); i++) {
