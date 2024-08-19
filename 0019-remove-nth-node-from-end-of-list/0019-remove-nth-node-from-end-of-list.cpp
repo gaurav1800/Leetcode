@@ -14,6 +14,7 @@ public:
         
         int i = 0;
         
+        
         ListNode* current = head;
         
         while (current != NULL) {
@@ -35,8 +36,6 @@ public:
         current->next = current->next->next;
         
         return head;
-        
-        
         
         
     }
