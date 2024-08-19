@@ -11,9 +11,8 @@ public:
         while(left < right) {
             int area = (right - left) * min(height[left], height[right]);
             
-            if (area > result) {
-                result = area;
-            }
+            result = max(result, area);
+            
             if (height[left] < height[right]) {
                 left++;
             }
