@@ -20,7 +20,7 @@ public:
         ListNode *next = NULL;
         ListNode *current = head;
         
-        while (current != NULL) {
+        while(current != NULL) {
             next = current->next;
             current->next = prev;
             prev = current;
