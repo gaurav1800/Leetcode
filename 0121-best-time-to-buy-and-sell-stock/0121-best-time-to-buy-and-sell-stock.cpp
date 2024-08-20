@@ -2,14 +2,14 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         
-        int max_profit = 0;
-        int current_min = prices[0];
+        int maxProfit = 0;
+        int currentMin = prices[0];
         
-        for(int i = 1; i < prices.size(); i++) {
-            max_profit = std::max(max_profit, prices[i] - current_min);
-            current_min = std::min(current_min, prices[i]);
+        for(int i=1; i<prices.size(); i++) {
+            maxProfit = max(maxProfit, prices[i] - currentMin);
+            currentMin = min(currentMin, prices[i]);
         }
         
-        return max_profit;
+        return maxProfit;
     }
 };
