@@ -27,9 +27,10 @@ public:
 //             counter++;
 //         }
         
+        
 //         ListNode *prev = current;
 //         current = current->next;
-//         ListNode *next = current->next;
+//         ListNode *next = nullptr;
         
 //         while (current != nullptr && counter != right) {
 //             next = current->next;
@@ -39,6 +40,7 @@ public:
 //             counter++;
 //         }
         
+//         result
 //         return result->next;
         
         ListNode dummy(0); // Create a dummy node
