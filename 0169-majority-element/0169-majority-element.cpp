@@ -2,18 +2,40 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         
-        unordered_map<int, int> myMap;
+        int counter = 0;
         
-        int n = nums.size();
-        
-        for(int num : nums) {
-            myMap[num]++;
-            if (myMap[num] > n/2) {
-                return num;
+        int maxn = 0;
+
+        for(int num : nums){
+            if(counter == 0){
+                maxn = num;
             }
+            
+            if(num == maxn){
+                counter++;
+            }
+            else {
+                counter--;
+            }
+
         }
+        return maxn;
         
-        return 0;
+        
+        
+        // inefficient
+//         unordered_map<int, int> myMap;
+        
+//         int n = nums.size();
+        
+//         for(int num : nums) {
+//             myMap[num]++;
+//             if (myMap[num] > n/2) {
+//                 return num;
+//             }
+//         }
+        
+//         return 0;
         
     }
 };
