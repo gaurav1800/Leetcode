@@ -7,7 +7,7 @@ public:
     if (gasSum - costSum < 0)
       return -1;
 
-    int ans = 0;
+    int result = 0;
     int sum = 0;
         
     int n = gas.size();
@@ -16,11 +16,11 @@ public:
       sum += gas[i] - cost[i];
       if (sum < 0) {
         sum = 0;
-        ans = i + 1;  // Start from next index.
+        result = i + 1;  // Start from next index.
       }
     }
 
-    return ans;
+    return result;
         
     }
 };
