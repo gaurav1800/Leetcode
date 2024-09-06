@@ -1,42 +1,44 @@
 class Solution {
 public:
-    std::string reverseWords(std::string s) {
+    string reverseWords(std::string s) {
+        
+        string result="";
+        
+        string temp="";
 
         
-        int start = 0, end = s.size() - 1;
-        
-        while (start <= end && s[start] == ' ') start++;
-        
-        while (end >= start && s[end] == ' ') end--;
-
-        
-        reverse(s.begin() + start, s.begin() + end + 1);
-
-        int i = start, j = start;
-        
-        while (i <= end) {
-        
-            while (j <= end && s[j] != ' ') j++;
-
-            reverse(s.begin() + i, s.begin() + j);
-
-            i = j + 1;
-            j = i;
+        for(int i = s.size()-1 ; i >= 0; i--)
+        {
+            if(s[i] != ' ')
+            {
+                temp += s[i];
+            }
+            
+            else if(!temp.empty()) {
+                reverse(temp.begin(), temp.end());
+                
+                if(!result.empty()){
+                    result += " ";
+                }
+                
+                result += temp;
+                temp = "";
+            }
         }
-
-        int slow = start, fast = start;
         
-        while (fast <= end) {
-        
-            while (fast <= end && s[fast] == ' ') fast++;
+        if(!temp.empty()){
             
-            while (fast <= end && s[fast] != ' ') s[slow++] = s[fast++];
+            reverse(temp.begin(), temp.end());
             
-            while (fast <= end && s[fast] == ' ') fast++;
+            if(!result.empty()){
+                result += " ";
+            }
             
-            if (fast <= end) s[slow++] = ' ';
+            result += temp;
+            
         }
-
-        return s.substr(start, slow - start);
+        
+        return result;
+        
     }
 };
