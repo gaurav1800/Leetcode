@@ -3,17 +3,16 @@ class Solution:
         
         strs.sort()
         
+        first = strs[0]
+        last = strs[-1]
+        
         result = ""
         
-        for i in range(len(strs[0])):
-            j = 1
-            while j < len(strs) and strs[0][i] == strs[j][i]:
-                j += 1
-            
-            if j == len(strs):
-                result += strs[0][i]
+        for i in range(len(first)):
+            if first[i] == last[i]:
+                result += first[i]
             else:
                 return result
-        
+            
         return result
                 
