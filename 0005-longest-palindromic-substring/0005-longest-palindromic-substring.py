@@ -16,7 +16,8 @@ class Solution:
                 left = i - (result-1)//2
                 right = i + result//2
         
-        return s[int(left):int(right+1)]
+        # return s[int(left):int(right+1)]
+        return s[left:right+1]
         
         
     def expand(self, word, left, right):
