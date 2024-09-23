@@ -5,12 +5,10 @@ class Solution:
         result = nums[0]
         
         for num in nums:
-            if currentSum + num < 0:
+            if currentSum < 0:
                 currentSum = 0
-                result = max(result, num)
-            else:
-                currentSum += num
-                result = max(result, currentSum)
-        
+            currentSum += num
+            result = max(result, currentSum)
+            
         return result
         
