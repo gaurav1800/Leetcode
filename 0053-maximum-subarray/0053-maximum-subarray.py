@@ -9,6 +9,6 @@ class Solution:
                 currentSum = 0
             currentSum += num
             result = max(result, currentSum)
-            
+        
         return result
         
