@@ -3,7 +3,7 @@ class Solution:
         
         stack = []
         
-        pairs = { "}" : "{", ")": "(", "]":"["}
+        pairs = {")":"(", "]":"[", "}":"{"}
         
         for char in s:
             if char in pairs:
