@@ -12,7 +12,7 @@ class Solution:
             if area > result:
                 result = area
             
-            if min(height[left], height[right]) == height[left]:
+            if height[left] < height[right]:
                 left += 1
             else:
                 right -= 1
