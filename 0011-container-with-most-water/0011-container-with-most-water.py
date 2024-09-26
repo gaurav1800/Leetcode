@@ -6,16 +6,16 @@ class Solution:
         
         result = 0
         
-        while(left < right):
-            area = (right - left) * min(height[left], height[right])
+        while left < right:
+            area = (right-left) * min(height[left], height[right])
+            result = max(result, area)
             
-            if area > result:
-                result = area
-            
-            if (height[left] < height[right]):
+            if min(height[left], height[right]) == height[left]:
                 left += 1
             else:
                 right -= 1
         
         return result
+            
+                
         
