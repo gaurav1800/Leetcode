@@ -1,21 +1,20 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
         
-        
-        
         if n < 3:
             return n
         
         first = 1
         second = 2
         
-        
-        for i in range(3, n+1):
-            temp = second
-            second += first
-            first = temp
+        for i in range(2, n):
+            temp = first+second
+            first = second
+            second = temp
         
         return second
+        
+        
         
 #         # another solution
 #         array = [1, 2, 3]
