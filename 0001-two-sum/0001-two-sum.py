@@ -4,10 +4,10 @@ class Solution:
         dict1 = {}
         
         for i in range(len(nums)):
-            if nums[i] in dict1.keys():
-                return [i, dict1[nums[i]]]
+            if target - nums[i] in dict1.keys():
+                return [i, dict1[target-nums[i]]]
             else:
-                dict1[target-nums[i]] = i
+                dict1[nums[i]] = i
                 
         return []
         
