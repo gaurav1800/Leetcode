@@ -15,8 +15,8 @@ class Solution:
         while heap:
             dist, x, y = heapq.heappop(heap)
             
-            # if [x, y] == destination:
-            #     return dist
+            if [x, y] == destination:
+                return dist
             
             for dx, dy in directions:
                 nx, ny = x, y
