@@ -3,15 +3,14 @@ class Solution:
         
         result = 0
         stack = []
+        n = len(nums)
         
-        
-        for i, num in enumerate(nums):
-            if stack == [] or num <= nums[stack[-1]]:
+        for i in range(n):
+            if not stack or nums[stack[-1]] > nums[i]:
                 stack.append(i)
-            
         
-        for i, num in reversed(list(enumerate(nums))):
-            while stack and num >= nums[stack[-1]]:
-                result = max(result, i-stack.pop())
+        for j in range(n-1, -1, -1):
+            while stack and nums[stack[-1]] <= nums[j]:
+                result = max(result, j - stack.pop())
         
         return result
