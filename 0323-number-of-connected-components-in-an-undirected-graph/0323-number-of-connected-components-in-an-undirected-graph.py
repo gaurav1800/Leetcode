@@ -15,7 +15,7 @@ class Solution:
             seen.add(node)
             
             while q:
-                u = q.pop()
+                u = q.popleft()
                 for v in graph[u]:
                     if v not in seen:
                         q.append(v)
