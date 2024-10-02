@@ -3,14 +3,13 @@ class Solution:
         
         rows = len(maze)
         cols = len(maze[0])
-        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
-        heap = []
+        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
         distances = [[inf] * cols for _ in range(rows)]
         
-        heapq.heappush(heap, (0, start[0], start[1])) # dist, row, col
+        heap = [(0, start[0], start[1])]
         
-        def is_valid(x, y):
-            return 0 <= x < rows and 0<= y < cols and maze[x][y] == 0
+        def isValid(x, y):
+            return 0 <= x < rows and 0 <= y < cols and maze[x][y] == 0
         
         while heap:
             dist, x, y = heapq.heappop(heap)
@@ -22,7 +21,7 @@ class Solution:
                 nx, ny = x, y
                 steps = 0
                 
-                while is_valid(nx+dx, ny+dy):
+                while isValid(nx+dx, ny+dy):
                     nx += dx
                     ny += dy
                     steps += 1
@@ -32,5 +31,8 @@ class Solution:
                     heapq.heappush(heap, (distances[nx][ny], nx, ny))
         
         return -1 if distances[destination[0]][destination[1]] == inf else distances[destination[0]][destination[1]]
+                
+                
+        
         
         
