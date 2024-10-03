@@ -11,41 +11,22 @@ class Solution:
         dummy = ListNode(0, None)
         current = dummy
         
-        while l1 or l2 or carry > 0:
-            if not l1 and not l2:
-                current.next = ListNode(carry, None)
-                carry = 0
-            elif not l1:
-                total = l2.val + carry
-                
-                current.next = ListNode(total%10)
-                current = current.next
-                l2 = l2.next
-                
-                total //= 10
-                carry = total
+        while l1 or l2 or carry:
             
-            elif not l2:
-                total = l1.val + carry
-                
-                current.next = ListNode(total%10)
-                current = current.next
-                l1 = l1.next
-                
-                total //= 10
-                carry = total
+            first = l1.val if l1 else 0
+            second = l2.val if l2 else 0
             
-            else:
-                total = l1.val + l2.val + carry
-                
-                current.next = ListNode(total%10)
-                current = current.next
-                l1 = l1.next
-                l2 = l2.next
-                
-                total //= 10
-                carry = total
-        
+            total = first + second + carry
+            
+            current.next = ListNode(total%10)
+            
+            carry = total // 10
+            
+            current = current.next 
+            
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+            
         return dummy.next
                 
                 
