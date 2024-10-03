@@ -9,13 +9,13 @@ class Solution:
         for num in num_set:
             if num-1 not in num_set:
                 current_num = num
-                current_result = 1
+                current_max = 1
                 
-                while current_num+1 in num_set:
+                while current_num + 1 in num_set:
+                    current_max += 1
                     current_num += 1
-                    current_result += 1
                 
-                result = max(result, current_result)
+                result = max(result, current_max)
         
         return result
         
