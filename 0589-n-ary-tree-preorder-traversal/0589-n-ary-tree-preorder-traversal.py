@@ -12,7 +12,6 @@ class Solution:
         def helper(root, arr):
             if root:
                 arr.append(root.val)
-                i = 0
                 for child in root.children:
                     helper(child, arr)
             return arr
