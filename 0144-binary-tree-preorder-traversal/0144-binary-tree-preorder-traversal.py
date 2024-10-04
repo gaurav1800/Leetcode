@@ -16,8 +16,8 @@ class Solution:
         
         arr = []
         
-        helper(root, arr)
+        return helper(root, arr)
         
-        return arr
+        
         
         
