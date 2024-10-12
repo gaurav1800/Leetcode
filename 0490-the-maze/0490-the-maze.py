@@ -3,7 +3,7 @@ class Solution:
         
         rows = len(maze)
         cols = len(maze[0])
-        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
         visited = set()
         queue = deque([start])
         visited.add(tuple(start))
@@ -27,8 +27,10 @@ class Solution:
                 if (nx, ny) not in visited:
                     queue.append([nx, ny])
                     visited.add((nx, ny))
+                    
         
         return False
+        
                 
                 
         
