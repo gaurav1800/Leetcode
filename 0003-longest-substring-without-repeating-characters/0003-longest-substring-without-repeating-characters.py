@@ -1,10 +1,9 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         
-#         faster solution
+        # faster solution
         left = 0
         ptr = 0
-        
         result = 0
         
         mySet = set()
@@ -43,5 +42,3 @@ class Solution:
 #             result = max(result, currentSum)
         
 #         return result
-                
-        
