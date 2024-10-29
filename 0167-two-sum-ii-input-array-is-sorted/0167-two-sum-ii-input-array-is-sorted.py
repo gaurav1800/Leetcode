@@ -10,5 +10,3 @@ class Solution:
                 myDict[num] = idx
         
         return
-                
-        
