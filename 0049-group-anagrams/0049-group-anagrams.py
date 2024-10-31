@@ -1,13 +1,14 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         
-        dict = collections.defaultdict(list)
+        dict1: Dict[tuple, List[str]] = {}
         
         for word in strs:
-            key = ''.join(sorted(word))
-            dict[key].append(word)
+            key = tuple(sorted(word))
+            if key in dict1.keys():
+                dict1[key].append(word)
+            else:
+                dict1[key] = [word]
         
-        return dict.values()
-        
-                
+        return list(dict1.values())
         
