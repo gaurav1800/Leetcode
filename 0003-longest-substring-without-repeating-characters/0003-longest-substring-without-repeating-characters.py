@@ -3,20 +3,20 @@ class Solution:
         
         # faster solution
         left = 0
-        ptr = 0
+        right = 0
         result = 0
         
         mySet = set()
         
-        while ptr < len(s):
-            while s[ptr] in mySet:
+        while right < len(s):
+            while s[right] in mySet:
                 mySet.remove(s[left])
                 left += 1
                 
-            mySet.add(s[ptr])
-            result = max(result, ptr - left + 1)
+            mySet.add(s[right])
+            result = max(result, right - left + 1)
             
-            ptr += 1
+            right += 1
             
         return result
         
