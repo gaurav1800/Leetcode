@@ -21,4 +21,3 @@ class Solution:
                 stack.append(int(char))
         
         return stack[0]
-        
