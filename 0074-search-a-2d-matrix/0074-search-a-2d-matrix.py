@@ -5,12 +5,12 @@ class Solution:
         up = 0
         down = len(matrix) - 1
         
-        while (up <= down):
+        while up <= down:
             mid = (up + down) // 2
             
-            if (target < matrix[mid][0]):
+            if target < matrix[mid][0]:
                 down = mid-1
-            elif (target > matrix[mid][-1]):
+            elif target > matrix[mid][-1]:
                 up = mid+1
             else:
                 break
