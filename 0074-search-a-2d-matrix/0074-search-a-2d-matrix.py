@@ -16,24 +16,22 @@ class Solution:
                 break
         
         # checking if up goes greater than down
-        if (up > down):
+        if up > down:
             return False
         
         left = 0
         right = len(matrix[0]) - 1
         row = (up+down) // 2
         
-        while (left <= right):
+        while left <= right:
             mid = (left+right) // 2
             
-            if (target < matrix[row][mid]):
+            if target < matrix[row][mid]:
                 right = mid-1
-            elif (target > matrix[row][mid]):
+            elif target > matrix[row][mid]:
                 left = mid+1
             else:
                 return True
         
         return False
-        
-        
         
