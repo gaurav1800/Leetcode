@@ -6,15 +6,16 @@
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         
-        if (list1 is None):
+        
+        if list1 is None:
             return list2
-        elif (list2 is None):
+        elif list2 is None:
             return list1
         
         sortedHead = ListNode()
         current = sortedHead
         
-        while (list1 or list2):
+        while list1 or list2:
             if not list1:
                 current.next = list2
                 return sortedHead.next
@@ -22,7 +23,7 @@ class Solution:
                 current.next = list1
                 return sortedHead.next
             else:
-                if (list1.val <= list2.val):
+                if list1.val <= list2.val:
                     current.next = list1
                     current = current.next
                     list1 = list1.next
@@ -33,4 +34,3 @@ class Solution:
                 
         
         return sortedHead.next
-        
