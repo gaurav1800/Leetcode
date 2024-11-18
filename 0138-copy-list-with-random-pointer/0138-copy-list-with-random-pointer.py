@@ -30,3 +30,4 @@ class Solution:
             current = current.next
         
         return myDict[head]
+        
