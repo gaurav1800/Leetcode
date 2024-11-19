@@ -14,9 +14,6 @@ class Solution:
             right = right.next
             n -= 1
         
-        # for i in range(n):
-        #     right = right.next
-        
         
         while (right.next != None):
             left = left.next
