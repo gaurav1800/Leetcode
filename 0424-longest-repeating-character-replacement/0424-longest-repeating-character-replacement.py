@@ -1,7 +1,6 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         
-        
         count = {}
         result = 0
         left = 0
@@ -17,5 +16,3 @@ class Solution:
         
         return result
         
-        
-                  
