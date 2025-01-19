@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/gaurav1800/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/gaurav1800/Leetcode/tree/master/0049-group-anagrams) |
+| [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/gaurav1800/Leetcode/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/gaurav1800/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0217-contains-duplicate](https://github.com/gaurav1800/Leetcode/tree/master/0217-contains-duplicate) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gaurav1800/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/gaurav1800/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/gaurav1800/Leetcode/tree/master/0062-unique-paths) |
 | [0322-coin-change](https://github.com/gaurav1800/Leetcode/tree/master/0322-coin-change) |
 ## Breadth-First Search
@@ -133,4 +135,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/gaurav1800/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
