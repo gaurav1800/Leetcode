@@ -16,7 +16,3 @@ class Solution:
             return False
         return self.helper(root.left, minimum, root.val) and self.helper(root.right, root.val, maximum)
     
-        
-        
-            
-        
