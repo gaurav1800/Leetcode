@@ -25,6 +25,3 @@ class Solution:
         
         maxDepth(root)
         return result
-        
-        
-        
