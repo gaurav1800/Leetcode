@@ -9,7 +9,7 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        
+
         if not root:
             return
         
