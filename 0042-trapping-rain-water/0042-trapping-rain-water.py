@@ -23,4 +23,3 @@ class Solution:
                 total += rightMax - height[right]
         
         return total
-        
