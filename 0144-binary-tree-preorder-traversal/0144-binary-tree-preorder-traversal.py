@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        
+
         def helper(root, arr):
             if root:
                 arr.append(root.val)
@@ -15,9 +15,4 @@ class Solution:
             return arr
         
         arr = []
-        
         return helper(root, arr)
-        
-        
-        
-        
