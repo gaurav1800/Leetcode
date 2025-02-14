@@ -40,4 +40,3 @@ class Solution:
             second = temp2
         
         return head
-        
