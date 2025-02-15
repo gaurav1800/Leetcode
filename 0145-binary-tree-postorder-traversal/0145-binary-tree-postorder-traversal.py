@@ -16,4 +16,3 @@ class Solution:
         
         arr = []
         return helper(root, arr)
-        
