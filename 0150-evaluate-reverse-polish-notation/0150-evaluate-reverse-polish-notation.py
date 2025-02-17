@@ -2,8 +2,7 @@ class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         
         stack = []
-        
-        ops = ["+", "-", "*", "/"]
+        ops = {"+", "-", "*", "/"}
         
         for char in tokens:
             if char in ops:
