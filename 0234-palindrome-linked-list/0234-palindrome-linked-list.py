@@ -13,7 +13,7 @@ class Solution:
         current = head
         currentFast = head
 
-        while currentFast != None and currentFast.next != None:
+        while currentFast is not None and currentFast.next is not None:
             stack.append(current.val)
             current = current.next
             currentFast = currentFast.next.next
@@ -27,30 +27,3 @@ class Solution:
             current = current.next
         
         return True
-
-        
-        # while current is not None:
-        #     l1.append(current.val)
-        #     current = current.next
-        
-        # if l1 == l1[::-1]:
-        #     return True
-        # else:
-        #     return False
-
-
-        
-        # if head is None or head.next is None:
-        #     return True
-        
-        # l1 = []
-        # current = head
-        
-        # while current is not None:
-        #     l1.append(current.val)
-        #     current = current.next
-        
-        # if l1 == l1[::-1]:
-        #     return True
-        # else:
-        #     return False
