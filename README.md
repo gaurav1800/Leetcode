@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/gaurav1800/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0141-linked-list-cycle](https://github.com/gaurav1800/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/gaurav1800/Leetcode/tree/master/0143-reorder-list) |
+| [0234-palindrome-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gaurav1800/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Stack
 |  |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/gaurav1800/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/gaurav1800/Leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/gaurav1800/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0234-palindrome-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/gaurav1800/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/gaurav1800/Leetcode/tree/master/0143-reorder-list) |
+| [0234-palindrome-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -222,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/gaurav1800/Leetcode/tree/master/0143-reorder-list) |
+| [0234-palindrome-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Design
 |  |
 | ------- |
