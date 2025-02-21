@@ -8,7 +8,6 @@ class Solution:
         
         dummy = ListNode(0)
         current = dummy
-
         heap = []
 
         for i, node in enumerate(lists):
@@ -24,4 +23,3 @@ class Solution:
                 heapq.heappush(heap, (minNode.next.val, i, minNode.next))
 
         return dummy.next
-
