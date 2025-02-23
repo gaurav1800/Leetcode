@@ -2,18 +2,18 @@ class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         
         result = []
-        maximum = deque()
+        deque_window = deque() 
 
         for i, num in enumerate(nums):
-            while maximum and maximum[-1] < num:
-                maximum.pop()
+            if deque_window and deque_window[0] < i - k + 1:
+                deque_window.popleft()
 
-            maximum.append(num)
+            while deque_window and nums[deque_window[-1]] < num:
+                deque_window.pop()
 
-            if i >= k and nums[i - k] == maximum[0]:  # out-of-bounds
-                maximum.popleft()
+            deque_window.append(i)
 
             if i >= k - 1:
-                result.append(maximum[0])
+                result.append(nums[deque_window[0]])
 
         return result
