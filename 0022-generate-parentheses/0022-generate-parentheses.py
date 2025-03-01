@@ -1,7 +1,6 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-  
-        #         faster implementation using DFS
+        
         result = []
         
         def dfs(left:int, right:int, s:str) -> None:
@@ -14,31 +13,3 @@ class Solution:
         
         dfs(n, n, '')
         return result
-
-
-
-
-#        # slower implementation
-#         stack = []
-#         result = []
-        
-#         def backtrack(opening, closing):
-#             if opening == closing == n:
-#                 result.append("".join(stack))
-            
-#             if opening < n:
-#                 stack.append("(")
-#                 backtrack(opening+1, closing)
-#                 stack.pop()
-            
-#             if closing < opening:
-#                 stack.append(")")
-#                 backtrack(opening, closing+1)
-#                 stack.pop()
-        
-#         backtrack(0, 0)
-        
-#         return result
-        
-
-        
