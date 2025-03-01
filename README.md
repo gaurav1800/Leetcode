@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/gaurav1800/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/gaurav1800/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/gaurav1800/Leetcode/tree/master/0062-unique-paths) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/gaurav1800/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/gaurav1800/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/gaurav1800/Leetcode/tree/master/0049-group-anagrams) |
 | [0451-sort-characters-by-frequency](https://github.com/gaurav1800/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 ## Linked List
@@ -258,4 +260,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1916-find-center-of-star-graph](https://github.com/gaurav1800/Leetcode/tree/master/1916-find-center-of-star-graph) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
