@@ -3,7 +3,7 @@ class Solution:
         
         result = []
         
-        def dfs(left:int, right:int, s:str) -> None:
+        def dfs(left:int, right:int, s:str):
             if left == 0 and right == 0:
                 result.append(s)
             if left > 0:
