@@ -9,7 +9,7 @@ class Solution:
             if left > 0:
                 dfs(left-1, right, s+'(')
             if left < right:
-                dfs(left, right - 1, s+')')
+                dfs(left, right-1, s+')')
         
         dfs(n, n, '')
         return result
