@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/gaurav1800/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/gaurav1800/Leetcode/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/gaurav1800/Leetcode/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/gaurav1800/Leetcode/tree/master/0056-merge-intervals) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/gaurav1800/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/gaurav1800/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/gaurav1800/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/gaurav1800/Leetcode/tree/master/0062-unique-paths) |
 | [0279-perfect-squares](https://github.com/gaurav1800/Leetcode/tree/master/0279-perfect-squares) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/gaurav1800/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 ## Union Find
 |  |
