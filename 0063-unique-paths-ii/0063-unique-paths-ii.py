@@ -2,7 +2,6 @@ class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         
         # 1d array extra space solution
-        
         m = len(obstacleGrid)
         n = len(obstacleGrid[0])
         
@@ -11,20 +10,14 @@ class Solution:
         
         for i in range(m):
             for j in range(n):
-                
                 if obstacleGrid[i][j] == 1:
                     dp[j] = 0
-                
                 elif j > 0:
                     dp[j] += dp[j-1]
                     
         return dp[n-1]
         
-        
-        
-        
 #         # 2d array extra space solution
-        
 #         m = len(obstacleGrid)
 #         n = len(obstacleGrid[0])
         
@@ -38,4 +31,3 @@ class Solution:
 #                     dp[i][j] = dp[i-1][j] + dp[i][j-1]
         
 #         return dp[m][n]
-                
