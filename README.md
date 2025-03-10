@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/gaurav1800/Leetcode/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/gaurav1800/Leetcode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/gaurav1800/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/gaurav1800/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/gaurav1800/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gaurav1800/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/gaurav1800/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/gaurav1800/Leetcode/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/gaurav1800/Leetcode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/gaurav1800/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0279-perfect-squares](https://github.com/gaurav1800/Leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/gaurav1800/Leetcode/tree/master/0322-coin-change) |
 ## Breadth-First Search
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/gaurav1800/Leetcode/tree/master/0063-unique-paths-ii) |
+| [0064-minimum-path-sum](https://github.com/gaurav1800/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/gaurav1800/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/gaurav1800/Leetcode/tree/master/0200-number-of-islands) |
 ## Sorting
