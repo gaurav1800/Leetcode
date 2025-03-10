@@ -14,4 +14,3 @@ class Solution:
                     grid[i][j] += grid[0][j-1]
         
         return grid[rows-1][columns-1]
-        
