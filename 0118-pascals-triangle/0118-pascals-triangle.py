@@ -1,6 +1,5 @@
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
-        
         result = []
         
         for i in range(numRows):
@@ -11,6 +10,3 @@ class Solution:
                 result[i][j] = result[i-1][j-1] + result[i-1][j]
         
         return result
-        
-        
-        
