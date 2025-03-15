@@ -11,5 +11,3 @@ class Solution:
                 result[i][j] = result[i-1][j-1] + result[i-1][j]
         
         return result[rowIndex]
-        
-        
