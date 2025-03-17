@@ -11,4 +11,3 @@ class Solution:
                 result = max(result, price-currentMin)
         
         return result
-        
