@@ -10,4 +10,3 @@ class Solution:
                     array[i] = min(array[i], 1 + array[i-coin])
         
         return array[amount] if array[amount] != amount + 1 else -1
-        
