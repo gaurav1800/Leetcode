@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/gaurav1800/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/gaurav1800/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0494-target-sum](https://github.com/gaurav1800/Leetcode/tree/master/0494-target-sum) |
 | [1127-last-stone-weight](https://github.com/gaurav1800/Leetcode/tree/master/1127-last-stone-weight) |
 ## Dynamic Programming
 |  |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/gaurav1800/Leetcode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/gaurav1800/Leetcode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0392-is-subsequence) |
+| [0494-target-sum](https://github.com/gaurav1800/Leetcode/tree/master/0494-target-sum) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -307,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
+| [0494-target-sum](https://github.com/gaurav1800/Leetcode/tree/master/0494-target-sum) |
 ## Memoization
 |  |
 | ------- |
