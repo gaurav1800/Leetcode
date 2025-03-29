@@ -6,7 +6,6 @@
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         
-        
         if list1 is None:
             return list2
         elif list2 is None:
