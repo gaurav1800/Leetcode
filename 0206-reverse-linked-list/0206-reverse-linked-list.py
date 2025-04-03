@@ -6,7 +6,6 @@
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
-        
         if head is None or head.next is None:
             return head
         
@@ -20,4 +19,3 @@ class Solution:
             current = nxt
         
         return prev
-        
