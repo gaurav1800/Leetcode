@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/gaurav1800/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/gaurav1800/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/gaurav1800/Leetcode/tree/master/0213-house-robber-ii) |
+| [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/gaurav1800/Leetcode/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/gaurav1800/Leetcode/tree/master/0322-coin-change) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/gaurav1800/Leetcode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/gaurav1800/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gaurav1800/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/gaurav1800/Leetcode/tree/master/0279-perfect-squares) |
 | [1013-fibonacci-number](https://github.com/gaurav1800/Leetcode/tree/master/1013-fibonacci-number) |
 ## Combinatorics
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/gaurav1800/Leetcode/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/gaurav1800/Leetcode/tree/master/0072-edit-distance) |
+| [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0392-is-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/gaurav1800/Leetcode/tree/master/0394-decode-string) |
 | [0451-sort-characters-by-frequency](https://github.com/gaurav1800/Leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -307,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/gaurav1800/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0394-decode-string](https://github.com/gaurav1800/Leetcode/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/gaurav1800/Leetcode/tree/master/1013-fibonacci-number) |
 ## Design
@@ -331,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/gaurav1800/Leetcode/tree/master/0070-climbing-stairs) |
+| [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1013-fibonacci-number](https://github.com/gaurav1800/Leetcode/tree/master/1013-fibonacci-number) |
 ## Bit Manipulation
 |  |
