@@ -1,7 +1,7 @@
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         
-        # 1d array extra space solution
+        # 1d array extra space solution - O(n) space, O(mn) time
         m = len(obstacleGrid)
         n = len(obstacleGrid[0])
         
@@ -17,13 +17,12 @@ class Solution:
                     
         return dp[n-1]
         
-#         # 2d array extra space solution
+#         # 2d array extra space solution - O(mn)
 #         m = len(obstacleGrid)
 #         n = len(obstacleGrid[0])
         
 #         dp = [[0] * (n+1) for i in range(m+1)]
 #         dp[1][0] = 1
-        
 
 #         for i in range(1, m+1):
 #             for j in range(1, n+1):
