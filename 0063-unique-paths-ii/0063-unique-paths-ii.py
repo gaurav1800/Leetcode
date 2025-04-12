@@ -17,7 +17,7 @@ class Solution:
                     
         return dp[n-1]
         
-#         # 2d array extra space solution - O(mn)
+#         # 2d array extra space solution - O(mn) space, O(mn) time
 #         m = len(obstacleGrid)
 #         n = len(obstacleGrid[0])
         
