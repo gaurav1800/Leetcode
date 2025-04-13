@@ -1,6 +1,6 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-
+        
         if not s:
             return ""
         
@@ -25,4 +25,3 @@ class Solution:
             right += 1
 
         return right - left - 1
-        
