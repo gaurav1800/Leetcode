@@ -3,11 +3,9 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        k %= len(nums)
         
+        k %= len(nums)
         nums.reverse()
         
         nums[:k] = nums[:k][::-1]
-        
         nums[k:] = nums[k:][::-1]
-        
