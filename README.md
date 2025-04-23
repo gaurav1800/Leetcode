@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/gaurav1800/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/gaurav1800/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0494-target-sum](https://github.com/gaurav1800/Leetcode/tree/master/0494-target-sum) |
+| [1106-escape-a-large-maze](https://github.com/gaurav1800/Leetcode/tree/master/1106-escape-a-large-maze) |
 | [1127-last-stone-weight](https://github.com/gaurav1800/Leetcode/tree/master/1127-last-stone-weight) |
 ## Dynamic Programming
 |  |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/gaurav1800/Leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/gaurav1800/Leetcode/tree/master/0322-coin-change) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gaurav1800/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1106-escape-a-large-maze](https://github.com/gaurav1800/Leetcode/tree/master/1106-escape-a-large-maze) |
 ## Math
 |  |
 | ------- |
@@ -198,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gaurav1800/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gaurav1800/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/gaurav1800/Leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
+| [1106-escape-a-large-maze](https://github.com/gaurav1800/Leetcode/tree/master/1106-escape-a-large-maze) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -253,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/gaurav1800/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/gaurav1800/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gaurav1800/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [1106-escape-a-large-maze](https://github.com/gaurav1800/Leetcode/tree/master/1106-escape-a-large-maze) |
 ## String
 |  |
 | ------- |
