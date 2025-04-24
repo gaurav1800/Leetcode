@@ -29,4 +29,3 @@ class Solution:
                 nums[idx] = int(q/num)
         
         return nums
-        
