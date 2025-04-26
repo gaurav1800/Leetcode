@@ -1,8 +1,7 @@
 class Solution:
     def candy(self, ratings: List[int]) -> int:
-
-        n = len(ratings)
         
+        n = len(ratings)
         arr = [1] * n
         
         for i in range(1, n):
@@ -18,12 +17,9 @@ class Solution:
         
         
 #         Solution with more space
-
 #         n = len(ratings)
-        
 #         leftToRight = [0] * n
 #         rightToLeft = [0] * n
-        
 #         counter = n
         
 #         for i in range(1, n):
@@ -38,4 +34,3 @@ class Solution:
 #             counter += max(leftToRight[i], rightToLeft[i])
         
 #         return counter
-        
