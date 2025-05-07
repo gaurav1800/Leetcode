@@ -12,16 +12,12 @@ class Solution {
             num = num*10 + x%10;
             x /= 10;
         }
-        
         return num == x1;
-        
         
         
         //converting int to string first approach
 //         String num = String.valueOf(x);
-        
 //         int i=0, j=num.length()-1;
-        
 //         while (i<j) {
 //             if (num.charAt(i) != num.charAt(j)) {
 //                 return false;
@@ -30,6 +26,5 @@ class Solution {
 //             j--;
 //         }
 //         return true;
-        
     }
 }
