@@ -3,7 +3,6 @@ class Solution:
         
         left = 0
         right = len(height) - 1
-        
         result = 0
         
         while left < right:
@@ -18,6 +17,3 @@ class Solution:
                 right -= 1
         
         return result
-            
-                
-        
