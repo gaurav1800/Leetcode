@@ -1,8 +1,7 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         
-        result = []
-        
+        result = []    
         nums.sort()
         
         for i, num in enumerate(nums):
