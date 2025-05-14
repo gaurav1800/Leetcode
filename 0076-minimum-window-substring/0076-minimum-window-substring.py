@@ -5,7 +5,6 @@ class Solution:
         required = len(t)
         bestLeft = -1
         minLength = len(s) + 1
-        
         l = 0
         
         for r,c in enumerate(s):
@@ -23,4 +22,3 @@ class Solution:
                 l += 1
         
         return '' if bestLeft == -1 else s[bestLeft: bestLeft + minLength]
-        
