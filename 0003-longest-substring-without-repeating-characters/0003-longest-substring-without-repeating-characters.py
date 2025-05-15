@@ -5,7 +5,6 @@ class Solution:
         left = 0
         right = 0
         result = 0
-        
         mySet = set()
         
         while right < len(s):
