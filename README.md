@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/gaurav1800/Leetcode/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/gaurav1800/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/gaurav1800/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0068-text-justification](https://github.com/gaurav1800/Leetcode/tree/master/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/gaurav1800/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/gaurav1800/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/gaurav1800/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/gaurav1800/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/gaurav1800/Leetcode/tree/master/0049-group-anagrams) |
+| [0068-text-justification](https://github.com/gaurav1800/Leetcode/tree/master/0068-text-justification) |
 | [0072-edit-distance](https://github.com/gaurav1800/Leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/gaurav1800/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/gaurav1800/Leetcode/tree/master/0125-valid-palindrome) |
@@ -403,4 +405,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/gaurav1800/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Simulation
+|  |
+| ------- |
+| [0068-text-justification](https://github.com/gaurav1800/Leetcode/tree/master/0068-text-justification) |
 <!---LeetCode Topics End-->
