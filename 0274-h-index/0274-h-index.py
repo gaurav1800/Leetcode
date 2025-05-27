@@ -1,7 +1,7 @@
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
         
-        # slower = O(nlogn) = O(sort())
+        # slower: O(nlogn) = O(sort())
         # citations.sort()
         # n = len(citations)
         
