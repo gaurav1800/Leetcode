@@ -1,7 +1,7 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         
-        dict1: Dict[tuple, List[str]] = {}
+        dict1 =  {}
         
         for word in strs:
             key = tuple(sorted(word))
@@ -11,4 +11,3 @@ class Solution:
                 dict1[key] = [word]
         
         return list(dict1.values())
-        
