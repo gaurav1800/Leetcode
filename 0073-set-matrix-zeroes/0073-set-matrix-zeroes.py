@@ -16,7 +16,7 @@ class Solution:
         
         for i in zero_rows:
             for j in range(cols):
-                matrix[i][j] = 0
+                matrix[i] = [0] * cols
         
         for i in zero_cols:
             for j in range(rows):
