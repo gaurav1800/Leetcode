@@ -15,8 +15,7 @@ class Solution:
                     zero_cols.add(j)
         
         for i in zero_rows:
-            for j in range(cols):
-                matrix[i] = [0] * cols
+            matrix[i] = [0] * cols
         
         for i in zero_cols:
             for j in range(rows):
