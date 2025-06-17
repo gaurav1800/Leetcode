@@ -14,8 +14,6 @@ class Solution:
                 while current_num + 1 in num_set:
                     current_max += 1
                     current_num += 1
-                
                 result = max(result, current_max)
         
         return result
-        
