@@ -4,21 +4,26 @@ class Solution:
         if len(s) == 0 or len(words) == 0:
             return []
 
-        m = len(words[0])
-        n = len(words)
+        n = len(words[0])
+        m = len(words)
+        map1 = {}
+        
+        for word in words:
+            if word not in map1:
+                map1[word] = 1
+            else:
+                map1[word] += 1
         result = []
-        counter = collections.Counter(words)
-
-        for i in range(len(s) - n * m + 1):
-            seen = collections.defaultdict(int)
-            j = 0
-            while j < n:
-                word = s[i + j * m: i + j * m + m]
-                seen[word] += 1
-                if seen[word] > counter[word]:
+        for i in range(len(s) - m * n + 1):
+            map2 = {}
+            for j in range(m):
+                sub = s[i + j * n:i + (j+1) * n]
+                if sub not in map1:
                     break
-                j += 1
-            if j == n:
+                if sub not in map2:
+                    map2[sub] = 1
+                else:
+                    map2[sub] += 1
+            if map1 == map2:
                 result.append(i)
-
         return result
