@@ -12,6 +12,7 @@ class Solution:
         if not node:
             return None
 
+        # BFS
         queue = collections.deque([node])
         hashMap = {node : Node(node.val)}
 
