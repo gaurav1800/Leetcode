@@ -273,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/gaurav1800/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/gaurav1800/Leetcode/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/gaurav1800/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/gaurav1800/Leetcode/tree/master/0143-reorder-list) |
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/gaurav1800/Leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/gaurav1800/Leetcode/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/gaurav1800/Leetcode/tree/master/0068-text-justification) |
+| [0071-simplify-path](https://github.com/gaurav1800/Leetcode/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/gaurav1800/Leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/gaurav1800/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/gaurav1800/Leetcode/tree/master/0125-valid-palindrome) |
