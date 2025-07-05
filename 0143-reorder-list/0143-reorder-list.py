@@ -19,7 +19,7 @@ class Solution:
         slow.next = None
         prev = None
         
-        #  reverse second list
+        # reverse second half of the list
         while second:
             nxt = second.next
             second.next = prev
