@@ -1,14 +1,5 @@
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
-        
-        # slower: O(nlogn) = O(sort())
-        # citations.sort()
-        # n = len(citations)
-        
-        # for i, number in enumerate(citations):
-        #     if number >= n - i:
-        #         return n - i
-        # return 0
 
         # bucket sort
         total = 0
@@ -22,5 +13,14 @@ class Solution:
             total += count
             if total >= i:
                 return i
-        
         return 0
+
+
+        # slower: O(nlogn) = O(sort())
+        # citations.sort()
+        # n = len(citations)
+        
+        # for i, number in enumerate(citations):
+        #     if number >= n - i:
+        #         return n - i
+        # return 0
