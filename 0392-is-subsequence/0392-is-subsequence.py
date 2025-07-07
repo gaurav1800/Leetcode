@@ -10,5 +10,4 @@ class Solution:
                 i += 1
                 if i == len(s):
                     return True
-
         return False
