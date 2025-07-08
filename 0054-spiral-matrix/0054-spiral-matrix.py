@@ -38,6 +38,5 @@ class Solution:
             sc += 1
             if counter == rows*cols:
                 return result
-            
         
         return result
