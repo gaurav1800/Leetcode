@@ -3,7 +3,6 @@ class Solution:
         
         # map of { tuple:List[str]] }
         dict1 = {}
-        
         for word in strs:
             key = tuple(sorted(word))
             if key in dict1.keys():
