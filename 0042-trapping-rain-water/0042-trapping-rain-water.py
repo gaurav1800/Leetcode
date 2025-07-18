@@ -6,10 +6,9 @@ class Solution:
         
         left = 0
         right = len(height) - 1
-        
+
         leftMax = height[left]
         rightMax = height[right]
-        
         total = 0
         
         while left < right:
