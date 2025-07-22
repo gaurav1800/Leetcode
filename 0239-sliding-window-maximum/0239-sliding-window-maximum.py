@@ -12,7 +12,6 @@ class Solution:
                 deque_window.pop()
 
             deque_window.append(i)
-
             if i >= k - 1:
                 result.append(nums[deque_window[0]])
 
