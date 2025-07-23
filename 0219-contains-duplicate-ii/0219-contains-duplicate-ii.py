@@ -12,7 +12,6 @@ class Solution:
         return False
         
         # slow solution
-
         # if len(nums) < k:
         #     return len(set(nums)) != len(nums)
         # queue = deque()
