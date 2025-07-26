@@ -11,7 +11,6 @@ class Solution:
         
         prev = None
         current = head
-        
         while current is not None:
             nxt = current.next
             current.next = prev
