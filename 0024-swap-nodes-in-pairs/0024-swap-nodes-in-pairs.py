@@ -8,7 +8,6 @@ class Solution:
         
         def getLength(head: ListNode) -> int:
             length = 0
-
             while head:
                 length += 1
                 head = head.next
