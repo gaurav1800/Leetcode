@@ -17,7 +17,6 @@ class Solution:
             
             left = maxDepth(root.left)
             right = maxDepth(root.right)
-            
             if abs(left - right) > 1:
                 result = False 
             
