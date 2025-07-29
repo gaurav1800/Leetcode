@@ -15,7 +15,6 @@ class Solution:
             if result > right - left + 1:
                 left = i - (result-1)//2
                 right = i + result//2
-        
         return s[left:right+1]
         
         
