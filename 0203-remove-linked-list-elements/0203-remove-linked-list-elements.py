@@ -8,7 +8,6 @@ class Solution:
         
         dummy = ListNode(0, head)
         prev = dummy
-
         while head:
             if head.val != val:
                 prev.next = head
