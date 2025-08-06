@@ -26,4 +26,5 @@ class Solution:
                 return False
             current = current.next
         
+        
         return True
