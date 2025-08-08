@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0096-unique-binary-search-trees](https://github.com/gaurav1800/Leetcode/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gaurav1800/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/gaurav1800/Leetcode/tree/master/0189-rotate-array) |
+| [0231-power-of-two](https://github.com/gaurav1800/Leetcode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/gaurav1800/Leetcode/tree/master/0279-perfect-squares) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gaurav1800/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -408,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/gaurav1800/Leetcode/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/gaurav1800/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/gaurav1800/Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0394-decode-string](https://github.com/gaurav1800/Leetcode/tree/master/0394-decode-string) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/gaurav1800/Leetcode/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/gaurav1800/Leetcode/tree/master/0338-counting-bits) |
 ## Prefix Sum
 |  |
