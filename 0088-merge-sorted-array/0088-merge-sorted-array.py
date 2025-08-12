@@ -6,7 +6,6 @@ class Solution:
         nums1[m:] = nums2
         nums1.sort()
                 
-        
 #         longer solution
 #         nums1ptr = m-1
 #         nums2ptr = n-1
