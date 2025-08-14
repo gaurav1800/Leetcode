@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0326-power-of-three](https://github.com/gaurav1800/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/gaurav1800/Leetcode/tree/master/0342-power-of-four) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gaurav1800/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0390-elimination-game](https://github.com/gaurav1800/Leetcode/tree/master/0390-elimination-game) |
 | [1013-fibonacci-number](https://github.com/gaurav1800/Leetcode/tree/master/1013-fibonacci-number) |
 ## Combinatorics
 |  |
@@ -416,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0326-power-of-three](https://github.com/gaurav1800/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/gaurav1800/Leetcode/tree/master/0342-power-of-four) |
+| [0390-elimination-game](https://github.com/gaurav1800/Leetcode/tree/master/0390-elimination-game) |
 | [0394-decode-string](https://github.com/gaurav1800/Leetcode/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/gaurav1800/Leetcode/tree/master/1013-fibonacci-number) |
 | [2573-remove-nodes-from-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
