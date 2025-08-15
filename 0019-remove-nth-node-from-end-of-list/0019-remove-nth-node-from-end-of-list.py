@@ -14,11 +14,9 @@ class Solution:
             right = right.next
             n -= 1
         
-        
         while (right.next != None):
             left = left.next
             right = right.next
         
         left.next = left.next.next
-        
         return dummy.next
