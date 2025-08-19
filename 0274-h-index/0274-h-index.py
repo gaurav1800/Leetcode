@@ -19,7 +19,6 @@ class Solution:
         # slower: O(nlogn) = O(sort())
         # citations.sort()
         # n = len(citations)
-        
         # for i, number in enumerate(citations):
         #     if number >= n - i:
         #         return n - i
