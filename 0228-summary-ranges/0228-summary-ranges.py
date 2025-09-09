@@ -8,10 +8,7 @@ class Solution:
             while i+1 < len(nums) and nums[i+1] - nums[i] == 1:
                 i += 1
             
-            if start == nums[i]:
-                result.append(f"{start}")
-            else:
-                result.append(f"{start}->{nums[i]}")
+            result.append(f"{start}" if start == nums[i] else f"{start}->{nums[i]}")
             i += 1
         
         return result
