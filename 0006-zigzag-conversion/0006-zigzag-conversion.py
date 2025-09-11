@@ -5,8 +5,8 @@ class Solution:
         row = 0
         direction = 0 if numRows == 1 else 1
         
-        for c in s:
-            result[row] += c
+        for char in s:
+            result[row] += char
             
             row += direction
             
