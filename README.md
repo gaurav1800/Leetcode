@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/gaurav1800/Leetcode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/gaurav1800/Leetcode/tree/master/0279-perfect-squares) |
+| [0292-nim-game](https://github.com/gaurav1800/Leetcode/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/gaurav1800/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/gaurav1800/Leetcode/tree/master/0342-power-of-four) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gaurav1800/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -485,4 +486,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/gaurav1800/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/gaurav1800/Leetcode/tree/master/0292-nim-game) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/gaurav1800/Leetcode/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
