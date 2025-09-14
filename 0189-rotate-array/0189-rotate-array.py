@@ -5,7 +5,13 @@ class Solution:
         """
         
         k %= len(nums)
-        nums.reverse()
+        l, r = 0, len(nums)-1
+
+        # reverse nums list
+        while l < r:
+            nums[l], nums[r] = nums[r], nums[l]
+            l += 1
+            r -= 1
         
         nums[:k] = nums[:k][::-1]
         nums[k:] = nums[k:][::-1]
