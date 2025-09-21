@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/gaurav1800/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/gaurav1800/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/gaurav1800/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gaurav1800/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0494-target-sum](https://github.com/gaurav1800/Leetcode/tree/master/0494-target-sum) |
 | [1106-escape-a-large-maze](https://github.com/gaurav1800/Leetcode/tree/master/1106-escape-a-large-maze) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/gaurav1800/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/gaurav1800/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/gaurav1800/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/gaurav1800/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0451-sort-characters-by-frequency](https://github.com/gaurav1800/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1127-last-stone-weight](https://github.com/gaurav1800/Leetcode/tree/master/1127-last-stone-weight) |
 ## Monotonic Queue
