@@ -8,14 +8,8 @@ class Solution:
         for i, c in enumerate(s):
             if c in hashMap and hashMap[c] != t[i]:
                 return False
-            elif c not in hashMap:
-                hashMap[c] = t[i]
-        
-        hashMap = {}
-        for i, c in enumerate(t):
-            if c in hashMap and hashMap[c] != s[i]:
+            elif c not in hashMap and t[i] in hashMap.values():
                 return False
-            elif c not in hashMap:
-                hashMap[c] = s[i]
-        
+            else:
+                hashMap[c] = t[i]
         return True
