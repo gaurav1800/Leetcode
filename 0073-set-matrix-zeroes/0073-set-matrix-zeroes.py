@@ -3,6 +3,7 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
+
         rows = len(matrix)
         cols = len(matrix[0])
         zero_rows = set()
@@ -20,5 +21,4 @@ class Solution:
         for i in zero_cols:
             for j in range(rows):
                 matrix[j][i] = 0
-            
-
+        
