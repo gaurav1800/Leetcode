@@ -1,6 +1,6 @@
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
-
+        
         result = 0
         difference = 0
         total = 0
