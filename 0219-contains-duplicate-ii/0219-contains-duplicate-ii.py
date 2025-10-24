@@ -1,14 +1,11 @@
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         
-        # fast solution
         seen = {}
-        for i, num in enumerate(nums):
-            if num in seen and abs(seen[num]-i) <= k:
-                return True
-            else:
-                seen[num] = i
-
+        for i, n in enumerate(nums):
+            if n in seen and abs(seen[n] - i) <= k: return True
+            else: seen[n] = i
+        
         return False
         
         # slow solution
@@ -30,8 +27,3 @@ class Solution:
         #     if len(queue) != len(seen):
         #         return True
         # return False
-
-
-
-
-
