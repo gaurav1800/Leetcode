@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/gaurav1800/Leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/gaurav1800/Leetcode/tree/master/0013-roman-to-integer) |
+| [0029-divide-two-integers](https://github.com/gaurav1800/Leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/gaurav1800/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/gaurav1800/Leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/gaurav1800/Leetcode/tree/master/0062-unique-paths) |
@@ -461,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/gaurav1800/Leetcode/tree/master/0029-divide-two-integers) |
 | [0231-power-of-two](https://github.com/gaurav1800/Leetcode/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/gaurav1800/Leetcode/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/gaurav1800/Leetcode/tree/master/0342-power-of-four) |
