@@ -22,31 +22,4 @@ class Solution:
         
         return -quotient if negativeFlag else quotient 
 
-
-        if divisor == 1 or divisor == -1 or dividend == 0: 
-            if divisor == -1:
-                if dividend < 0:
-                    return -dividend
-                return -dividend
-            return dividend
-
-        signFlag = 0
-        quotient = 0
-
-        if dividend < 0:
-            signFlag += 1
-            dividend *= -1
-        if divisor < 0:
-            signFlag += 1
-            divisor *= -1
-        
-        while dividend - divisor >= 0:
-            quotient += 1
-            dividend -= divisor
-        
-        if signFlag == 1: 
-            return -quotient
-
-        return quotient
-
         
