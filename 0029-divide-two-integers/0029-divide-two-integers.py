@@ -8,9 +8,9 @@ class Solution:
             return INT_MAX
         
         negativeFlag = (dividend < 0) ^ (divisor < 0)
-        quotient = 0
         dividend = abs(dividend)
         divisor = abs(divisor)
+        quotient = 0
 
         while divisor <= dividend:
             tmp = divisor
@@ -18,7 +18,7 @@ class Solution:
             while dividend >= (tmp << 1):
                 tmp <<= 1
                 multiple <<= 1
-            divisor -= tmp
+            dividend -= tmp
             quotient += multiple
 
         return -quotient if negativeFlag else quotient
