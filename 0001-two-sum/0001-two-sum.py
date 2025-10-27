@@ -1,13 +1,12 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         
-        dict1 = {}
+        kv = {}
         
         for i, num in enumerate(nums):
-            if target - num in dict1.keys():
-                return [i, dict1[target-num]]
+            if target - num in kv.keys():
+                return [i, kv[target-num]]
             else:
-                dict1[num] = i
+                kv[num] = i
                 
         return []
-        
