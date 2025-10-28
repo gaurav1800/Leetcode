@@ -4,10 +4,10 @@ class Solution:
         counter = 0
         currentNum = 0
 
-        for n in nums:
+        for num in nums:
             if counter == 0:
-                currentNum = n
-            if currentNum == n:
+                currentNum = num
+            if currentNum == num:
                 counter += 1
             else:
                 counter -= 1
