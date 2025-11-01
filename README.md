@@ -216,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/gaurav1800/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/gaurav1800/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gaurav1800/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0257-binary-tree-paths](https://github.com/gaurav1800/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gaurav1800/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/gaurav1800/Leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
 ## Binary Tree
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/gaurav1800/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/gaurav1800/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gaurav1800/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0257-binary-tree-paths](https://github.com/gaurav1800/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gaurav1800/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Depth-First Search
 |  |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/gaurav1800/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/gaurav1800/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/gaurav1800/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0257-binary-tree-paths](https://github.com/gaurav1800/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gaurav1800/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/gaurav1800/Leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
 | [1106-escape-a-large-maze](https://github.com/gaurav1800/Leetcode/tree/master/1106-escape-a-large-maze) |
@@ -363,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/gaurav1800/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0242-valid-anagram](https://github.com/gaurav1800/Leetcode/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/gaurav1800/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/gaurav1800/Leetcode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/gaurav1800/Leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0392-is-subsequence) |
@@ -461,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
+| [0257-binary-tree-paths](https://github.com/gaurav1800/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/gaurav1800/Leetcode/tree/master/0494-target-sum) |
 ## Memoization
 |  |
