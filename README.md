@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0228-summary-ranges](https://github.com/gaurav1800/Leetcode/tree/master/0228-summary-ranges) |
 | [0238-product-of-array-except-self](https://github.com/gaurav1800/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/gaurav1800/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/gaurav1800/Leetcode/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/gaurav1800/Leetcode/tree/master/0274-h-index) |
 | [0289-game-of-life](https://github.com/gaurav1800/Leetcode/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/gaurav1800/Leetcode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0263-ugly-number](https://github.com/gaurav1800/Leetcode/tree/master/0263-ugly-number) |
+| [0268-missing-number](https://github.com/gaurav1800/Leetcode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/gaurav1800/Leetcode/tree/master/0279-perfect-squares) |
 | [0292-nim-game](https://github.com/gaurav1800/Leetcode/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/gaurav1800/Leetcode/tree/master/0326-power-of-three) |
@@ -171,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/gaurav1800/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/gaurav1800/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/gaurav1800/Leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/gaurav1800/Leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 ## Matrix
 |  |
@@ -195,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/gaurav1800/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/gaurav1800/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/gaurav1800/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/gaurav1800/Leetcode/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/gaurav1800/Leetcode/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/gaurav1800/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/gaurav1800/Leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -334,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/gaurav1800/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/gaurav1800/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/gaurav1800/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/gaurav1800/Leetcode/tree/master/0268-missing-number) |
 | [0290-word-pattern](https://github.com/gaurav1800/Leetcode/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/gaurav1800/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gaurav1800/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -480,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/gaurav1800/Leetcode/tree/master/0029-divide-two-integers) |
 | [0222-count-complete-tree-nodes](https://github.com/gaurav1800/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/gaurav1800/Leetcode/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/gaurav1800/Leetcode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/gaurav1800/Leetcode/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/gaurav1800/Leetcode/tree/master/0342-power-of-four) |
 ## Prefix Sum
