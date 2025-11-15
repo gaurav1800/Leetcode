@@ -4,7 +4,7 @@ class Solution:
         if num == 1:
             return True
         
-        lo, hi = 2, num//2
+        lo, hi = 2, num
 
         while lo <= hi:
             mid = (lo + hi) // 2
