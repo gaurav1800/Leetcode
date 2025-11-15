@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0292-nim-game](https://github.com/gaurav1800/Leetcode/tree/master/0292-nim-game) |
 | [0326-power-of-three](https://github.com/gaurav1800/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/gaurav1800/Leetcode/tree/master/0342-power-of-four) |
+| [0367-valid-perfect-square](https://github.com/gaurav1800/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gaurav1800/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0390-elimination-game](https://github.com/gaurav1800/Leetcode/tree/master/0390-elimination-game) |
 | [1013-fibonacci-number](https://github.com/gaurav1800/Leetcode/tree/master/1013-fibonacci-number) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/gaurav1800/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/gaurav1800/Leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0367-valid-perfect-square](https://github.com/gaurav1800/Leetcode/tree/master/0367-valid-perfect-square) |
 ## Matrix
 |  |
 | ------- |
