@@ -297,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/gaurav1800/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/gaurav1800/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/gaurav1800/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0345-reverse-vowels-of-a-string](https://github.com/gaurav1800/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0392-is-subsequence) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/gaurav1800/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Stack
@@ -376,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/gaurav1800/Leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/gaurav1800/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/gaurav1800/Leetcode/tree/master/0290-word-pattern) |
+| [0345-reverse-vowels-of-a-string](https://github.com/gaurav1800/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/gaurav1800/Leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/gaurav1800/Leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/gaurav1800/Leetcode/tree/master/0394-decode-string) |
