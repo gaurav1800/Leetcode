@@ -3,6 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
+
         nums1[m:] = nums2
         nums1.sort()
                 
@@ -25,3 +26,4 @@ class Solution:
 #                 else:
 #                     nums1[i] = nums2[nums2ptr]
 #                     nums2ptr -= 1
+        
