@@ -3,7 +3,6 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        
         n = len(nums)
         k %= n
         
@@ -13,3 +12,4 @@ class Solution:
         # reverse 2 parts
         nums[:k] = nums[:k][::-1]
         nums[k:] = nums[k:][::-1]
+        
