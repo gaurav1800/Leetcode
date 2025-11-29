@@ -6,8 +6,6 @@
 #         self.right = right
 class Solution:
     def sumOfLeftLeaves(self, root: Optional[TreeNode]) -> int:
-        
-        result = 0
 
         if root is None or (root.left is None and root.right is None):
             return 0
