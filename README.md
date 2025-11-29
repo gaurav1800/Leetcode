@@ -482,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gaurav1800/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/gaurav1800/Leetcode/tree/master/0022-generate-parentheses) |
 | [0257-binary-tree-paths](https://github.com/gaurav1800/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0401-binary-watch](https://github.com/gaurav1800/Leetcode/tree/master/0401-binary-watch) |
 | [0494-target-sum](https://github.com/gaurav1800/Leetcode/tree/master/0494-target-sum) |
 ## Memoization
 |  |
@@ -498,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/gaurav1800/Leetcode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/gaurav1800/Leetcode/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/gaurav1800/Leetcode/tree/master/0342-power-of-four) |
+| [0401-binary-watch](https://github.com/gaurav1800/Leetcode/tree/master/0401-binary-watch) |
 ## Prefix Sum
 |  |
 | ------- |
