@@ -11,7 +11,6 @@ class Solution:
         
         return counter
 
-
         # longer solution
         # if len(nums) == 1:
         #     return 1
