@@ -26,6 +26,3 @@ class Solution:
         #         nums[k], nums[k+1] = num, num
         #         k += 2
         # return k
-            
-            
-
