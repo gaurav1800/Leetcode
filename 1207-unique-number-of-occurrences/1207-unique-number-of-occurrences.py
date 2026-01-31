@@ -5,7 +5,6 @@ class Solution:
         count = Counter(arr)
         return len(count) == len(set(count.values()))
 
-
         # kv = {}
         # occSet = set()
 
