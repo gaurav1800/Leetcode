@@ -12,7 +12,7 @@ object Solution {
         }
         i
         
-        // slower with foldLeft
+        // functional way with foldLeft
         // nums.indices.foldLeft(0) {(i, j) =>
         //     if (nums(j) != `val`) {
         //         nums(i) = nums(j)
