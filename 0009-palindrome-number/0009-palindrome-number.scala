@@ -1,3 +1,5 @@
+import scala.annotation.tailrec
+
 object Solution {
     def isPalindrome(x: Int): Boolean = {
         if (x < 0 || x % 10 == 0 && x != 0) {
