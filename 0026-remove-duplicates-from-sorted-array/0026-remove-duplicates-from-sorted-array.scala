@@ -1,7 +1,7 @@
 object Solution {
     def removeDuplicates(nums: Array[Int]): Int = {
 
-        if (nums.isEmpty) return 0
+     if (nums.isEmpty) return 0
 
         var i = 0
 
@@ -25,6 +25,6 @@ object Solution {
         //         i
         //     }
         // }
-        // result + 1
+        // result + 1   
     }
 }
