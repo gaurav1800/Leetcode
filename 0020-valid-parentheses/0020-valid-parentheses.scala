@@ -3,7 +3,6 @@ import scala.util.boundary, boundary.break
 
 object Solution {
     def isValid(s: String): Boolean = {
-
         boundary {
             val stack = mutable.Stack[Char]()
             val pairs = Map(')' -> '(', '}' -> '{', ']' -> '[')
@@ -18,6 +17,8 @@ object Solution {
             }
             stack.isEmpty
         }
+
+
         
     }
 }
