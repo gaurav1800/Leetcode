@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/gaurav1800/Leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/gaurav1800/Leetcode/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/gaurav1800/Leetcode/tree/main/0066-plus-one/) | Easy |
+| [0069-sqrtx](https://github.com/gaurav1800/Leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/gaurav1800/Leetcode/tree/master/0070-climbing-stairs) |
 ## Stack
 |  |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/gaurav1800/Leetcode/tree/main/0035-search-insert-position/) | Easy |
+| [0069-sqrtx](https://github.com/gaurav1800/Leetcode/tree/master/0069-sqrtx) |
 ## Dynamic Programming
 |  |
 | ------- |
