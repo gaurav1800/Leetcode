@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/gaurav1800/Leetcode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/gaurav1800/Leetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0066-plus-one](https://github.com/gaurav1800/Leetcode/tree/main/0066-plus-one/) | Easy |
+| [0217-contains-duplicate](https://github.com/gaurav1800/Leetcode/tree/master/0217-contains-duplicate) |
 ## Two Pointers
 |  |
 | ------- |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/gaurav1800/Leetcode/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/gaurav1800/Leetcode/tree/master/0217-contains-duplicate) |
 ## Math
 |  |
 | ------- |
@@ -64,4 +66,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/gaurav1800/Leetcode/tree/master/0070-climbing-stairs) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/gaurav1800/Leetcode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
