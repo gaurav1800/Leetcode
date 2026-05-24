@@ -1,9 +1,7 @@
 import "strings"
 
 func lengthOfLastWord(s string) int {
-
     s = strings.TrimSpace(s)
-    lastSpace := strings.LastIndex(s, " ")
-
-    return len(s) - 1 - lastSpace    
+    sList := strings.Fields(s)
+    return len(sList[len(sList)-1])
 }
